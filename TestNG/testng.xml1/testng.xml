@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regrission">
+  <test thread-count="5" name="Regtest">
+    <classes>
+      <class name="FstTest.Test2"/>
+      <class name="FstTest.Test1"/>
+      <class name="FstTest.Test4"/>
+      <class name="FstTest.Test3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
